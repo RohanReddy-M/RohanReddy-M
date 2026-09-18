@@ -1,12 +1,29 @@
 # Rohan Reddy M
 
-Cloud Engineer — I design and operate cloud infrastructure end-to-end, from Terraform provisioning to AI-powered incident response.
+**Cloud engineer · data & decision science**
+
+I build systems end to end: analytics pipelines that turn raw data into decisions a business can act on, and cloud platforms with AI-powered incident response, from Terraform provisioning up.
+
+---
+
+## Olist Retention Radar
+
+**[github.com/RohanReddy-M/olist-churn-llm-insights](https://github.com/RohanReddy-M/olist-churn-llm-insights)** · [live dashboard](https://rohanreddy-m.github.io/olist-churn-llm-insights/)
+
+Which of 57,143 existing e-commerce customers will buy again, what drives it, and where the retention budget should go. Built on 99,441 real orders.
+
+- SQL star-schema feature layer with automated leakage tests; logistic regression chosen over random forest on cross-validated PR-AUC; calibrated probabilities; SHAP drivers
+- Top decile beats random targeting **2.3×** in-time and **1.7×** on a later period the model never saw
+- A/B test sized on the real segment before running anything; 20 dated entries in a decision log
+- Claude API drafts the stakeholder read-out, and code checks every figure it cites
+
+**[Automated weekly sales report](https://github.com/RohanReddy-M/weekly-report-automation)** · SQLite to a two-page PDF with week-on-week trends, z-score anomaly flags and an audit trail of every cleaning step, in about 5 seconds.
 
 ---
 
 ## ObserveOps
 
-**[github.com/RohanReddy-M/observeops](https://github.com/RohanReddy-M/observeops)** · live at [secureship.click](https://secureship.click)
+**[github.com/RohanReddy-M/observeops](https://github.com/RohanReddy-M/observeops)** · [run locally in 2 minutes](https://github.com/RohanReddy-M/observeops#running-locally)
 
 Production-grade cloud platform on AWS with automated incident response. When a service fails:
 
@@ -19,7 +36,7 @@ Production-grade cloud platform on AWS with automated incident response. When a 
 
 **Platform:** Kubernetes + ArgoCD GitOps · GitHub Actions · Docker · nginx · OpenTelemetry
 
-**Observability:** Prometheus · Grafana (4 dashboards) · Loki · AlertManager · Tempo · SLOs + error budgets · DORA metrics
+**Observability:** Prometheus · Grafana (5 dashboards) · Loki · AlertManager · Tempo · SLOs + error budgets · DORA metrics
 
 **AI layer:** LangGraph RAG agent · FAISS · Groq · CloudTrail security alerting via Lambda
 
@@ -27,7 +44,8 @@ Production-grade cloud platform on AWS with automated incident response. When a 
 
 ## Stack
 
-`AWS` `Terraform` `Kubernetes` `ArgoCD` `Docker` `GitHub Actions` `Python` `FastAPI` `Flask`  
+`Python` `SQL` `pandas` `scikit-learn` `SHAP` `statistics` `A/B testing`  
+`AWS` `Terraform` `Kubernetes` `ArgoCD` `Docker` `GitHub Actions` `FastAPI` `Flask`  
 `Prometheus` `Grafana` `Loki` `AlertManager` `OpenTelemetry` `LangGraph` `FAISS` `nginx`
 
 ---
