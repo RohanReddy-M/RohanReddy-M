@@ -12,7 +12,7 @@ DevOps / Cloud Engineer — I build production infrastructure, not toy projects.
 - Full observability: Prometheus + Grafana + Loki + AlertManager
 - Kubernetes manifests for EKS: HPA auto-scaling, spot instances, PVCs, ALB Ingress
 - AI incident response: RAG pipeline with LangGraph + FAISS + Groq (grounding, not hallucination)
-- Live at: **https://secureship.click**
+- Live demo: run on AWS in October 2026 and torn down between demonstrations (no permanent domain; the domain expired 1 Oct 2026)
 
 ## Stack
 
